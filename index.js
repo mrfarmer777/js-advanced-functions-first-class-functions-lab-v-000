@@ -4,5 +4,5 @@ const returnFirstTwoDrivers=function(drvs){
 };
 
 const returnLastTwoDrivers=function(drvs){
-  return drvs.slice(-2,drvs.length);
+  return drvs.slice(-2);
 };
