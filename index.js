@@ -18,3 +18,6 @@ function createFareMultiplier(mult){
 const fareDoubler=createFareMultiplier(2);
 const fareTripler=createFareMultiplier(3);
 
+function selectDifferentDrivers(drvs,selectFunc){
+  return selectFunc(drvs);
+}
