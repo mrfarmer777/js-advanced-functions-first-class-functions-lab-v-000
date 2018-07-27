@@ -7,3 +7,5 @@ const returnLastTwoDrivers=function(drvs){
   return drvs.slice(-2);
 };
 
+const selectingDrivers=[returnFirstTwoDrivers,returnLastTwoDrivers];
+
